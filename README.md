@@ -32,25 +32,25 @@ These logs are designed to represent typical alerts investigated by SOC analysts
 
 # Task Workflow
 1.	Log Ingestion
-o	Ingested the provided log file into Elasticsearch using Logstash
-o	Verified data ingestion using Kibana Discover
+•	Ingested the provided log file into Elasticsearch using Logstash
+•	Verified data ingestion using Kibana Discover
 2.	Threat Detection & Analysis
-o	Analyzed logs to identify malware-related events
-o	Investigated repeated failed login attempts
-o	Identified suspicious IP addresses involved in multiple alerts
+•	Analyzed logs to identify malware-related events
+•	Investigated repeated failed login attempts
+•	Identified suspicious IP addresses involved in multiple alerts
 3.	Alert Classification
-o	Categorized alerts into High, Medium, and Low severity
-o	Prioritized incidents based on potential impact
+•	Categorized alerts into High, Medium, and Low severity
+•	Prioritized incidents based on potential impact
 4.	Incident Investigation
-o	Correlated authentication events with malware detections
-o	Built a timeline of suspicious activity
-o	Assessed the scope and potential impact
+•	Correlated authentication events with malware detections
+•	Built a timeline of suspicious activity
+•	Assessed the scope and potential impact
 5.	Incident Response Simulation
-o	Simulated containment, eradication, and recovery actions
-o	Documented recommended security improvements
+•	Simulated containment, eradication, and recovery actions
+•	Documented recommended security improvements
 6.	Reporting
-o	Created a structured incident response report
-o	Captured SIEM screenshots as supporting evidence
+•	Created a structured incident response report
+•	Captured SIEM screenshots as supporting evidence
 
 # Key Findings
 •	Multiple high-severity malware alerts across different systems
